@@ -5,5 +5,7 @@
 </template>
 
 <script setup lang="ts">
-const {} = useNuxtApp()
+// $hello is not available when typescript is installed
+const {$hello} = useNuxtApp()
+console.log($hello())
 </script>
