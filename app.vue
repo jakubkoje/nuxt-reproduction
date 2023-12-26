@@ -5,7 +5,7 @@
 </template>
 
 <script setup lang="ts">
-// $hello is not available when typescript is installed
+// $hello is not available when @vueuse/motion/nuxt is enabled
 const {$hello} = useNuxtApp()
-console.log($hello())
+// console.log($hello())
 </script>
